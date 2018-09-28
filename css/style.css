@@ -1,0 +1,89 @@
+body {
+ font-family: Arial, sans-serif;
+ text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:active {
+  transform: translate(0px, 3px);
+  box-shadow: none;
+}
+
+.clear, input{
+  display: block;
+  margin-left: 2px;
+  margin-bottom: 5px;
+  font-size: 1em;
+}
+
+.clear {
+   width: 200px;
+}
+
+.keyboard button {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    background-color: black;
+    font-size: 1.5em;
+}
+
+#ac, #ce, .keyboard .equal {
+  background-color: maroon;
+  color: white;
+}
+
+.keyboard .oper, .keyboard #sign {
+    background-color: Indigo;
+}
+
+calculator {
+  border: 1px solid black;
+}
+
+#historyContent {
+  font-size: 1.5em;
+  border: 1px solid black;
+  margin: 20px 0;
+}
+
+.historical {
+  vertical-align: middle;
+  border: 1px solid black;
+}
+
+#io {
+  margin: 15px 0;
+  display: grid;
+  grid-gap: .4em;
+}
+
+row {
+  display: block;
+}
+
+.keyboard {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: repeat(5, 50px);
+  justify-items: center;
+}
+
+.row {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(4, 50px);
+}
+
+.wrapper {
+  display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+

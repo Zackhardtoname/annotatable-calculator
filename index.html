@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Annotatable Calculator</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Annotatable Calculator</title>
+</head>
+<body>
+  <h1>Annotatable Calculator</h1>
+  <div class="wrapper">
+    <div class="dash">
+      <form id = "io">
+        <input type="text" id = "annotation" placeholder="Optional annotation">
+        <input type="text" id = "formula" placeholder="Press Enter to Calculate">
+      </form>
+      <button class="clear" id="clearAnnotation">Clear annotation</button>
+      <button class="clear" id="clearFormula">Clear formula</button>
+      <button class="clear" id="clearHistory">Clear history</button>
+    </div>
+    <div class="keyboard">
+      <div class="row">
+        <button class="num">7</button>
+        <button class="num">8</button>
+        <button class="num">9</button>
+        <button class="oper">/</button>
+      </div>
+      <div class= "row">
+        <button class="num">4</button>
+        <button class="num">5</button>
+        <button class="num">6</button>
+        <button class="oper">*</button>
+      </div>
+      <div class="row">
+        <button class="num">1</button>
+        <button class="num">2</button>
+        <button class="num">3</button>
+        <button class="oper">-</button>
+      </div>
+      <div class="row">
+        <button id="ce">CE</button>
+        <button class="num">0</button>
+        <button class="oper">**</button>
+        <button class="oper">+</button>
+      </div>
+      <div class="row">
+        <button id="ac">AC</button>
+        <button class="num">.</button>
+        <button id="sign">±</button>
+        <button class="equal">=</button>
+      </div>
+    </div>
+    <div id="history">
+      <div id="historyTitle"><h3>History</h3></div>
+      <div id="historyContent"></div>
+    </div>
+  </div>
+  <br>
+  <br> 
+  <footer>Product by Zack Light</footer>
+</body>
+</html>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
